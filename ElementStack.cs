@@ -9,14 +9,13 @@ namespace ConsoleApp1
 {
     public class ElementStack
     {
-        public ElementStack next;
+        public KeyValuePair<string, string> Value { get; }
+        public ElementStack Next { get; set; }
 
-        public string Value { get; }
-
-        public ElementStack(string v)
+        public ElementStack(KeyValuePair<string, string> value)
         {
-            Value = v;
+            Value = value;
         }
-    };
-        
+    }
+
 }

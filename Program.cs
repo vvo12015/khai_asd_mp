@@ -12,7 +12,8 @@ namespace ConsoleApp1
     {
             static void MeasurePerformance()
             {
-                int n = 100000; // Кількість елементів для тесту
+                int n = 100000; // Кількість елементів для тесту1
+                int n2 = 200000; // Кількість елементів для тесту2
                 var random = new Random();
                 var data = new List<KeyValuePair<string, string>>(n);
 
